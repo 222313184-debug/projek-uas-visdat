@@ -1,0 +1,27 @@
+# Satu-satunya file yang biasanya perlu kamu ubah.
+tahun: 2024
+raw_glob: "data/raw/Rata-rata_Konsumsi_Perkapita_Seminggu_Menurut_Kelompok_*.xlsx"
+klaster_k: 4
+
+# Variabel multivariat (12 komoditas dari 8 kelompok; dipilih: nilai '-' sedikit, jenis pangan beragam).
+# Satuan per komoditas berbeda-beda (satuan komoditas BPS) -> semua dianalisis sebagai z-score.
+variabel_multivariat:
+  beras:            {grup: "Padi-Padian",              komoditas: "Beras (beras lokal, kualitas unggul, impor)", label: "Beras"}
+  terigu:           {grup: "Padi-Padian",              komoditas: "Tepung terigu",                                label: "Tepung terigu"}
+  telur_ayam_ras:   {grup: "Telur dan Susu",           komoditas: "Telur ayam ras",                               label: "Telur ayam ras"}
+  susu_kental:      {grup: "Telur dan Susu",           komoditas: "Susu kental manis",                            label: "Susu kental manis"}
+  daging_ayam_ras:  {grup: "Daging",                   komoditas: "Daging ayam ras",                              label: "Daging ayam ras"}
+  ikan_tongkol:     {grup: "Ikan",                     komoditas: "Tongkol",                                      label: "Ikan tongkol"}
+  kangkung:         {grup: "Sayur-Sayuran",            komoditas: "Kangkung",                                     label: "Kangkung"}
+  bayam:            {grup: "Sayur-Sayuran",            komoditas: "Bayam",                                        label: "Bayam"}
+  pisang:           {grup: "Buah-Buahan",              komoditas: "Pisang lainnya",                               label: "Pisang (lainnya)"}
+  rokok_filter:     {grup: "Rokok dan Tembakau",       komoditas: "Rokok kretek filter",                          label: "Rokok kretek filter"}
+  gorengan:         {grup: "Makanan dan Minuman Jadi", komoditas: "Makanan gorengan (tahu, tempe, bakwan, pisang)", label: "Gorengan"}
+  mie:              {grup: "Makanan dan Minuman Jadi", komoditas: "Mie bakso, mie rebus, mie goreng",             label: "Mie bakso/rebus/goreng"}
+
+# Data pendukung NON-BPS / BPS tambahan (kamu yang menyediakan)
+geo:
+  file: data/geo/Administrasi_Kabupaten.shp
+  prop_nama: nmkab        # nama kab/kota di shapefile
+  prop_kdkab: kdkab       # kode kab (>= 71 = kota; 00 = bukan kab/kota, dibuang)
+penduduk_file: data/raw/penduduk_kabkota_2024.csv   # kolom: kabkota, penduduk  (BPS: Jumlah Penduduk menurut Kab/Kota)

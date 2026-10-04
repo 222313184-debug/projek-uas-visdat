@@ -1,0 +1,143 @@
+grup,komoditas,komoditas_id,n_strip,rata2,sd,maks,dipakai_multivariat
+Buah-Buahan,Alpokat,buah_b__alpokat,8,0.0157,0.0187,0.145,False
+Buah-Buahan,Apel,buah_b__apel,13,0.0117,0.0098,0.097,False
+Buah-Buahan,Buah-buahan lainnya,buah_b__buah_buahan_lainnya,2,0.0614,0.0555,0.528,False
+Buah-Buahan,"Duku, langsat",buah_b__duku_langsat,28,0.1081,0.1267,0.561,False
+Buah-Buahan,Durian,buah_b__durian,22,0.0734,0.1164,1.293,False
+Buah-Buahan,Jambu biji,buah_b__jambu_biji,12,0.0054,0.005,0.033,False
+Buah-Buahan,"Jeruk, jeruk bali",buah_b__jeruk_jeruk_bali,1,0.054,0.0492,0.321,False
+Buah-Buahan,Mangga,buah_b__mangga,9,0.0249,0.0409,0.243,False
+Buah-Buahan,Pepaya,buah_b__pepaya,3,0.0524,0.0292,0.177,False
+Buah-Buahan,Pisang ambon,buah_b__pisang_ambon,1,0.0308,0.027,0.227,False
+Buah-Buahan,Pisang lainnya,buah_b__pisang_lainnya,0,0.1055,0.0666,0.551,True
+Buah-Buahan,Rambutan,buah_b__rambutan,18,0.0848,0.0951,0.619,False
+Buah-Buahan,Salak,buah_b__salak,13,0.029,0.0291,0.173,False
+Buah-Buahan,Semangka,buah_b__semangka,7,0.0483,0.0329,0.181,False
+Buah-Buahan,Tomat buah,buah_b__tomat_buah,18,0.0153,0.0286,0.186,False
+Daging,Daging ayam kampung,daging__daging_ayam_kampung,2,0.0178,0.0149,0.123,False
+Daging,Daging ayam ras,daging__daging_ayam_ras,0,0.1164,0.0608,0.291,True
+Daging,Daging babi,daging__daging_babi,140,0.0131,0.031,0.214,False
+Daging,Daging diawetkan lainnya,daging__daging_diawetkan_lainnya,47,0.0068,0.0093,0.057,False
+Daging,"Daging kambing, domba/biri-biri",daging__daging_kambing_domba_biri_biri,261,0.0003,0.0007,0.007,False
+Daging,Daging sapi,daging__daging_sapi,20,0.0058,0.0065,0.044,False
+Daging,Daging segar lainnya,daging__daging_segar_lainnya,70,0.0037,0.0082,0.104,False
+Daging,"Lainnya ( hati, jeroan, iga, kaki, buntut, kepala, dsb)",daging__lainnya_hati_jeroan_iga_kaki_buntut_kepa,94,0.0057,0.0061,0.027,False
+Daging,"Tetelan, sandung lamur",daging__tetelan_sandung_lamur,212,0.0007,0.0014,0.016,False
+Ikan,Bandeng,ikan__bandeng,78,0.0251,0.0466,0.242,False
+Ikan,Bandeng diawetkan,ikan__bandeng_diawetkan,162,0.0125,0.0339,0.389,False
+Ikan,Baronang,ikan__baronang,200,0.0046,0.0128,0.114,False
+Ikan,Bawal,ikan__bawal,135,0.0039,0.0076,0.06,False
+Ikan,"Cakalang,dencis",ikan__cakalang_dencis,60,0.0454,0.0601,0.333,False
+Ikan,"Cumi-cumi, sotong, gurita",ikan__cumi_cumi_sotong_gurita,19,0.0106,0.0113,0.09,False
+Ikan,"Cumi-cumi, sotong, gurita diawetkan",ikan__cumi_cumi_sotong_gurita_diawetkan,188,0.0038,0.0093,0.07,False
+Ikan,Ekor kuning,ikan__ekor_kuning,50,0.0161,0.0281,0.392,False
+Ikan,Gabus,ikan__gabus,63,0.0113,0.021,0.149,False
+Ikan,Gabus diawetkan,ikan__gabus_diawetkan,203,0.0038,0.0082,0.09,False
+Ikan,Gurame,ikan__gurame,143,0.0015,0.0027,0.023,False
+Ikan,"Ikan dalam kaleng (sardencis, tuna dalam kaleng, dsb)",ikan__ikan_dalam_kaleng_sardencis_tuna_dalam_k,39,0.0308,0.0609,0.714,False
+Ikan,Ikan diawetkan lainnya,ikan__ikan_diawetkan_lainnya,15,0.0694,0.1057,1.059,False
+Ikan,Ikan segar/basah lainnya,ikan__ikan_segar_basah_lainnya,12,0.0571,0.0654,0.474,False
+Ikan,Kakap,ikan__kakap,57,0.01,0.0227,0.214,False
+Ikan,Kembung diawetkan/peda,ikan__kembung_diawetkan_peda,74,0.0247,0.0363,0.273,False
+Ikan,"Kembung, lema/tatare, banyar/banyara",ikan__kembung_lema_tatare_banyar_banyara,6,0.0425,0.0469,0.473,False
+Ikan,"Kerang, siput, bekicot, remis",ikan__kerang_siput_bekicot_remis,106,0.0042,0.0087,0.065,False
+Ikan,"Ketam, kepiting, rajungan",ikan__ketam_kepiting_rajungan,132,0.0026,0.0057,0.055,False
+Ikan,Lele,ikan__lele,31,0.0262,0.0274,0.13,False
+Ikan,Mas,ikan__mas,111,0.0095,0.0186,0.155,False
+Ikan,"Mas, nila",ikan__mas_nila,514,0.0,0.0,0.0,False
+Ikan,Mujair,ikan__mujair,42,0.0227,0.0441,0.599,False
+Ikan,Nila,ikan__nila,49,0.0296,0.0359,0.165,False
+Ikan,Patin,ikan__patin,157,0.0151,0.0323,0.224,False
+Ikan,Selar,ikan__selar,63,0.0248,0.046,0.281,False
+Ikan,Selar diawetkan,ikan__selar_diawetkan,67,0.0138,0.022,0.186,False
+Ikan,Sepat diawetkan,ikan__sepat_diawetkan,158,0.015,0.0292,0.197,False
+Ikan,Tenggiri,ikan__tenggiri,87,0.0034,0.0077,0.077,False
+Ikan,Tenggiri diawetkan,ikan__tenggiri_diawetkan,69,0.0046,0.0069,0.045,False
+Ikan,Teri,ikan__teri,41,0.0101,0.0173,0.113,False
+Ikan,Teri diawetkan,ikan__teri_diawetkan,13,0.0881,0.1007,0.828,False
+Ikan,Tongkol,ikan__tongkol,14,0.0571,0.0567,0.46,True
+Ikan,"Tongkol, tuna, cakalang, dencis, ikan kayu",ikan__tongkol_tuna_cakalang_dencis_ikan_kayu,514,0.0,0.0,0.0,False
+Ikan,Tongkol/tuna/cakalang diawetkan,ikan__tongkol_tuna_cakalang_diawetkan,33,0.0671,0.1261,1.136,False
+Ikan,Tuna,ikan__tuna,50,0.0096,0.0162,0.142,False
+Ikan,Udang dan hewan air lainnya yang diawetkan,ikan__udang_dan_hewan_air_lainnya_yang_diawetk,191,0.0023,0.0048,0.055,False
+Ikan,Udang dan hewan air lainnya yang segar lainnya,ikan__udang_dan_hewan_air_lainnya_yang_segar_l,74,0.0022,0.0031,0.029,False
+Ikan,"Udang diawetkan (ebi, rebon)",ikan__udang_diawetkan_ebi_rebon,122,0.0098,0.0232,0.235,False
+Ikan,"Udang, lobster",ikan__udang_lobster,12,0.0159,0.0177,0.155,False
+Makanan dan Minuman Jadi,Air kemasan,makana__air_kemasan,4,0.1744,0.1561,1.453,False
+Makanan dan Minuman Jadi,Air kemasan galon,makana__air_kemasan_galon,5,0.2096,0.1557,0.598,False
+Makanan dan Minuman Jadi,"Air teh kemasan, minuman bersoda/mengandung CO2",makana__air_teh_kemasan_minuman_bersoda_mengandu,5,0.1667,0.1167,0.934,False
+Makanan dan Minuman Jadi,"Ayam/daging matang (ayam goreng, rendang, dsb)",makana__ayam_daging_matang_ayam_goreng_rendang_d,5,0.1788,0.1577,0.988,False
+Makanan dan Minuman Jadi,Bubur ayam,makana__bubur_ayam,21,0.0772,0.1284,0.774,False
+Makanan dan Minuman Jadi,Bubur kacang hijau,makana__bubur_kacang_hijau,10,0.085,0.0793,0.502,False
+Makanan dan Minuman Jadi,"Daging olahan matang (sosis, nugget, daging asap, dsb)",makana__daging_olahan_matang_sosis_nugget_daging,20,0.6194,0.5978,4.687,False
+Makanan dan Minuman Jadi,Es krim,makana__es_krim,9,0.1885,0.1,0.543,False
+Makanan dan Minuman Jadi,Es lainnya,makana__es_lainnya,9,0.3726,0.3075,2.049,False
+Makanan dan Minuman Jadi,"Gado-gado, ketoprak, pecel",makana__gado_gado_ketoprak_pecel,10,0.1348,0.1142,0.823,False
+Makanan dan Minuman Jadi,Ikan matang,makana__ikan_matang,9,0.1194,0.1228,0.706,False
+Makanan dan Minuman Jadi,"Kue basah (kue lapis, bika ambon, lemper, dsb)",makana__kue_basah_kue_lapis_bika_ambon_lemper_ds,0,1.4793,0.8547,5.367,False
+Makanan dan Minuman Jadi,"Kue kering, biskuit, semprong",makana__kue_kering_biskuit_semprong,0,0.3729,0.1979,2.155,False
+Makanan dan Minuman Jadi,Lontong/ketupat sayur,makana__lontong_ketupat_sayur,24,0.1637,0.2663,2.18,False
+Makanan dan Minuman Jadi,Makanan gorengan,makana__makanan_gorengan,8,0.2015,0.207,2.086,False
+Makanan dan Minuman Jadi,"Makanan gorengan (tahu, tempe, bakwan, pisang)",makana__makanan_gorengan_tahu_tempe_bakwan_pisan,0,2.4284,1.0078,5.686,True
+Makanan dan Minuman Jadi,Makanan jadi lainnya,makana__makanan_jadi_lainnya,7,0.3201,0.3437,3.275,False
+Makanan dan Minuman Jadi,"Makanan ringan anak-anak, krupuk/kripik",makana__makanan_ringan_anak_anak_krupuk_kripik,4,0.6137,0.3075,1.732,False
+Makanan dan Minuman Jadi,"Mie bakso, mie rebus, mie goreng",makana__mie_bakso_mie_rebus_mie_goreng,6,0.3966,0.2309,1.251,True
+Makanan dan Minuman Jadi,Mie instan,makana__mie_instan,6,0.0797,0.0545,0.332,False
+Makanan dan Minuman Jadi,"Minuman jadi (kopi, kopi susu, teh, susu coklat, dsb)",makana__minuman_jadi_kopi_kopi_susu_teh_susu_cok,3,0.843,0.5671,3.193,False
+Makanan dan Minuman Jadi,Minuman keras,makana__minuman_keras,129,0.01,0.0363,0.403,False
+Makanan dan Minuman Jadi,Nasi campur/rames,makana__nasi_campur_rames,3,0.5075,0.3984,3.827,False
+Makanan dan Minuman Jadi,Nasi goreng,makana__nasi_goreng,4,0.1534,0.1177,0.79,False
+Makanan dan Minuman Jadi,Nasi putih,makana__nasi_putih,5,0.1957,0.2004,1.777,False
+Makanan dan Minuman Jadi,"Roti manis, roti lainnya",makana__roti_manis_roti_lainnya,1,1.1069,0.6585,5.301,False
+Makanan dan Minuman Jadi,Roti tawar,makana__roti_tawar,3,0.2372,0.1841,1.223,False
+Makanan dan Minuman Jadi,"Sari buah kemasan, minuman kesehatan, minuman berenergi",makana__sari_buah_kemasan_minuman_kesehatan_minu,5,0.1478,0.1012,0.839,False
+Makanan dan Minuman Jadi,"Sate, tongseng",makana__sate_tongseng,14,0.0915,0.0975,0.623,False
+Makanan dan Minuman Jadi,"Sayur matang (ditumis, disantan, dsb)",makana__sayur_matang_ditumis_disantan_dsb,7,0.2164,0.2507,2.999,False
+Makanan dan Minuman Jadi,"Siomay, batagor",makana__siomay_batagor,16,0.1925,0.1728,0.898,False
+Makanan dan Minuman Jadi,"Soto, gule, sop, rawon, cincang",makana__soto_gule_sop_rawon_cincang,10,0.1165,0.1289,0.711,False
+Padi-Padian,"Beras (beras lokal, kualitas unggul, impor)",padi_p__beras_beras_lokal_kualitas_unggul_impor,0,1.5698,0.3115,2.654,True
+Padi-Padian,Beras ketan,padi_p__beras_ketan,32,0.0048,0.0061,0.044,False
+Padi-Padian,Jagung basah dengan kulit,padi_p__jagung_basah_dengan_kulit,4,0.0457,0.0481,0.375,False
+Padi-Padian,Jagung pipilan/beras jagung/jagung titil,padi_p__jagung_pipilan_beras_jagung_jagung_titil,55,0.0127,0.0379,0.373,False
+Padi-Padian,Padi-padian lainnya,padi_p__padi_padian_lainnya,138,0.0012,0.0022,0.018,False
+Padi-Padian,Tepung terigu,padi_p__tepung_terigu,8,0.0469,0.0317,0.178,True
+Rokok dan Tembakau,Rokok dan tembakau Lainnya,rokok___rokok_dan_tembakau_lainnya,53,0.1258,0.3576,6.432,False
+Rokok dan Tembakau,Rokok kretek filter,rokok___rokok_kretek_filter,0,13.4114,5.9958,32.255,True
+Rokok dan Tembakau,Rokok kretek tanpa filter,rokok___rokok_kretek_tanpa_filter,4,2.5316,2.5382,14.54,False
+Rokok dan Tembakau,Rokok putih,rokok___rokok_putih,18,0.8677,0.9529,6.378,False
+Rokok dan Tembakau,Tembakau,rokok___tembakau,28,0.0316,0.0538,0.535,False
+Sayur-Sayuran,Bahan sayur asam/lodeh (paket),sayur___bahan_sayur_asam_lodeh_paket,56,0.0454,0.0703,0.437,False
+Sayur-Sayuran,Bahan sayur sop/cap cay/ kimlo (paket),sayur___bahan_sayur_sop_cap_cay_kimlo_paket,16,0.1059,0.1165,0.526,False
+Sayur-Sayuran,Bawang bombay,sayur___bawang_bombay,30,0.0115,0.0161,0.1,False
+Sayur-Sayuran,Bawang merah,sayur___bawang_merah,0,0.3503,0.1183,0.828,False
+Sayur-Sayuran,Bawang putih,sayur___bawang_putih,0,0.5411,0.1618,1.2,False
+Sayur-Sayuran,Bayam,sayur___bayam,1,0.0633,0.0371,0.363,True
+Sayur-Sayuran,Buncis,sayur___buncis,2,0.017,0.0186,0.211,False
+Sayur-Sayuran,Cabe hijau,sayur___cabe_hijau,4,0.0056,0.0068,0.049,False
+Sayur-Sayuran,Cabe merah,sayur___cabe_merah,3,0.0331,0.0358,0.178,False
+Sayur-Sayuran,Cabe rawit,sayur___cabe_rawit,0,0.0402,0.0208,0.121,False
+Sayur-Sayuran,Daun ketela pohon/daun singkong,sayur___daun_ketela_pohon_daun_singkong,0,0.0671,0.0561,0.413,False
+Sayur-Sayuran,Jengkol,sayur___jengkol,117,0.0067,0.0115,0.063,False
+Sayur-Sayuran,Kacang panjang,sayur___kacang_panjang,1,0.0388,0.022,0.243,False
+Sayur-Sayuran,Kangkung,sayur___kangkung,0,0.0827,0.0392,0.301,True
+Sayur-Sayuran,Kol/kubis,sayur___kol_kubis,0,0.0308,0.0382,0.481,False
+Sayur-Sayuran,"Labu, labu siam, labu parang",sayur___labu_labu_siam_labu_parang,0,0.0414,0.0546,0.71,False
+Sayur-Sayuran,Mentimun,sayur___mentimun,1,0.0358,0.0253,0.252,False
+Sayur-Sayuran,Nangka muda,sayur___nangka_muda,9,0.0123,0.0121,0.093,False
+Sayur-Sayuran,Pepaya muda,sayur___pepaya_muda,11,0.0254,0.0296,0.202,False
+Sayur-Sayuran,Sawi hijau,sayur___sawi_hijau,1,0.0265,0.025,0.286,False
+Sayur-Sayuran,Sawi putih (petsai),sayur___sawi_putih_petsai,1,0.0214,0.0306,0.39,False
+Sayur-Sayuran,Sayur-sayuran lainnya,sayur___sayur_sayuran_lainnya,1,0.061,0.0869,1.067,False
+Sayur-Sayuran,Tauge,sayur___tauge,4,0.0141,0.0113,0.089,False
+Sayur-Sayuran,Terong,sayur___terong,2,0.0614,0.0327,0.216,False
+Sayur-Sayuran,"Tomat sayur, tomat ceri",sayur___tomat_sayur_tomat_ceri,1,0.0428,0.035,0.269,False
+Sayur-Sayuran,Wortel,sayur___wortel,0,0.0219,0.0179,0.18,False
+Telur dan Susu,Susu bubuk,telur___susu_bubuk,7,0.0125,0.0085,0.057,False
+Telur dan Susu,Susu bubuk bayi,telur___susu_bubuk_bayi,8,0.0123,0.0064,0.036,False
+Telur dan Susu,Susu cair pabrik,telur___susu_cair_pabrik,5,0.0686,0.0858,0.686,False
+Telur dan Susu,Susu kental manis,telur___susu_kental_manis,0,0.0543,0.0308,0.269,True
+Telur dan Susu,Susu lainnya dan hasil lain dari susu,telur___susu_lainnya_dan_hasil_lain_dari_susu,62,0.013,0.0184,0.121,False
+Telur dan Susu,Telur ayam kampung,telur___telur_ayam_kampung,2,0.0711,0.0574,0.511,False
+Telur dan Susu,Telur ayam ras,telur___telur_ayam_ras,0,1.8167,0.5881,3.083,True
+Telur dan Susu,Telur itik/telur itik manila,telur___telur_itik_telur_itik_manila,78,0.0261,0.0478,0.426,False
+Telur dan Susu,"Telur lainnya (telur puyuh, telur asin mentah maupun matang, telur penyu, telur angsa, dsb)",telur___telur_lainnya_telur_puyuh_telur_asin_men,67,0.0834,0.1151,0.875,False

@@ -1,0 +1,39 @@
+---
+title: "Hierarki wilayah"
+subtitle: "Indonesia → pulau → provinsi → kab/kota"
+---
+
+<p class="page-lead">Wilayah disusun bertingkat: Indonesia → pulau → provinsi → kab/kota. Luas blok menunjukkan jumlah penduduk, warna menunjukkan apakah konsumsi komoditas yang dipilih di atas atau di bawah rata-rata. Dengan begitu terlihat bukan hanya di mana konsumsi tinggi atau rendah, tetapi juga berapa banyak orang yang tinggal di sana.</p>
+
+:::: {.callout-tip title="Cara membaca"}
+Klik sebuah blok untuk masuk ke tingkat berikutnya; klik jejak di bagian atas untuk kembali. **Ukuran blok = jumlah penduduk. Warna = z-score konsumsi** komoditas yang dipilih: biru di bawah rata-rata 514 kab/kota, kuning di atasnya. Warna pulau dan provinsi adalah rata-rata kab/kota di dalamnya, dibobot jumlah penduduk.
+::::
+
+::: {.viz-card .viz-card--plotly}
+<div class="viz-heading"><div><span>01 · Perbandingan luas</span><h2>Treemap wilayah</h2></div><p>Klik blok untuk masuk ke tingkat berikutnya.</p></div>
+
+```{python}
+import sys; sys.path.insert(0, "src")
+import viz
+df = viz.muat()
+tm, sb = viz.hierarki(df)
+tm.show()
+```
+<p class="viz-source">Sumber: BPS, 2024 (konsumsi dan jumlah penduduk 2024).</p>
+:::
+
+::: {.viz-card .viz-card--plotly}
+<div class="viz-heading"><div><span>02 · Kedalaman struktur</span><h2>Sunburst wilayah</h2></div><p>Klik cincin untuk memperbesar satu cabang.</p></div>
+
+```{python}
+sb.show()
+```
+<p class="viz-source">Sumber: BPS, 2024 (konsumsi dan jumlah penduduk 2024).</p>
+:::
+
+::: {.insight-note}
+<strong>Yang terlihat</strong>
+<p>Jawa menampung 55,7% penduduk dan Sumatera 21,8%, sehingga pola dua pulau ini mendominasi gambaran nasional. Rata-rata z-score berbobot penduduk: pada <b>telur ayam ras</b> Jawa +0,77 dan Sumatera +0,56, sedangkan Papua −1,07 dan Maluku −1,59. Pada <b>mi</b>, Jawa +1,12 dan Papua −1,16. Pada <b>beras</b> kebalikannya: Bali–Nusa Tenggara +1,24 dan Papua −1,39.</p><p>Papua hanya 2,0% penduduk sehingga tampak kecil di treemap meski polanya berbeda jauh, dan pengaruhnya pada angka nasional kecil. Gambar ini menunjukkan perbedaan konsumsi antarwilayah, bukan penyebabnya.</p>
+:::
+
+*Sumber: BPS, 2024 (konsumsi); BPS (jumlah penduduk 2024).*

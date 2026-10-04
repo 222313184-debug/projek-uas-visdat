@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+altair>=5
+plotly>=5
+geopandas
+shapely
+pyyaml
+openpyxl
+jupyter
+nbformat
+vl-convert-python>=1.9.0

@@ -1,0 +1,11 @@
+kelompok,judul_tabel,tahun,level,url,tanggal_akses,catatan
+Buah-Buahan,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Buah-Buahan Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,ISI,ISI,
+Daging,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Daging Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,ISI,ISI,
+Ikan,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Ikan Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,ISI,ISI,
+Makanan dan Minuman Jadi,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Makanan dan Minuman Jadi Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,ISI,ISI,
+Padi-Padian,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Padi-Padian Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,ISI,ISI,
+Rokok dan Tembakau,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Rokok dan Tembakau Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,ISI,ISI,
+Sayur-Sayuran,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Sayur-Sayuran Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,https://www.bps.go.id/id/statistics-table/2/MjEwMCMy/rata-rata-konsumsi-perkapita-seminggu-menurut-kelompok-sayur-sayuran-per-kabupaten-kota.html,ISI,
+Telur dan Susu,"Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok Telur dan Susu Per Kabupaten/kota (Satuan Komoditas)",2024,kab/kota,https://www.bps.go.id/id/statistics-table/2/MjA5OSMy/rata-rata-konsumsi-perkapita-%20seminggu-menurut-kelompok-telur-dan-susu-per-%20kabupaten-kota.html,ISI,
+Penduduk,"Jumlah Penduduk menurut Kabupaten/Kota dan Kelompok Umur",2024,kab/kota,ISI,ISI,data/raw/Jumlah_Penduduk_...xlsx; diolah scripts/03_prepare_penduduk.py
+Batas wilayah (non-BPS),"Administrasi_Kabupaten.shp (atribut sumber: BPS; periode 2019)",2019,kab/kota,ISI (sumber asli shapefile),ISI,data/geo/
