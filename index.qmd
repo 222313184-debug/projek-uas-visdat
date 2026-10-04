@@ -1,0 +1,52 @@
+---
+pagetitle: "Piring Indonesia"
+---
+
+<div class="hero">
+<div class="hero-copy">
+<p class="eyebrow">Data BPS 2024 · 514 kabupaten/kota</p>
+<h1 class="hero-title">Satu negeri,<br><em>beragam isi piring.</em></h1>
+<p class="hero-intro">Sama-sama di Indonesia, tapi apa isi piring makan kita benar-benar mirip? Temukan peta rasa dan kebiasaan makan unik dari Sabang sampai Merauke.</p>
+<div class="hero-actions"><a class="primary-button" href="multivariat.html">Lihat pola pangan →</a><span>12 komoditas · 4 klaster</span></div>
+</div>
+<div class="plate-visual" aria-hidden="true"><div class="plate"><div class="plate-center"><strong>514</strong><span>wilayah</span></div><span class="food-shape shape-rice"></span><span class="food-shape shape-leaf"></span><span class="food-shape shape-protein"></span><span class="food-shape shape-spice"></span></div></div>
+</div>
+
+```{python}
+#| output: asis
+import sys; sys.path.insert(0, "src")
+import viz, pandas as pd
+df = viz.muat(); k = pd.read_csv("docs/kamus_data.csv")
+st = [("Cakupan", len(df), "kabupaten/kota"), ("Wilayah", df.provinsi.nunique(), "provinsi"),
+      ("Kedalaman data", len(k), "komoditas dalam data"), ("Fokus analisis", int(k.dipakai_multivariat.sum()), "variabel dianalisis")]
+print('<div class="stat-strip">' + "".join(f"<div><span>{a}</span><strong>{b}</strong><small>{c}</small></div>" for a, b, c in st) + "</div>")
+n = df.klaster.value_counts().sort_index(); mx = n.max()
+bars = "".join(f'<div><span>{c}</span><i style="width:{v/mx*100:.0f}%;background:{viz.OKABE[i]}"></i><b>{v}</b></div>' for i, (c, v) in enumerate(n.items()))
+print(f'<div class="finding-card"><div><p class="eyebrow" style="color:var(--mustard)">Gambaran besar</p><h3>{len(df)} kab/kota dikelompokkan menjadi {len(n)} pola konsumsi.</h3>'
+      f'<p>Daerah-daerah dengan selera makan yang mirip digabungkan ke dalam kelompok yang sama—tanpa memedulikan batas provinsi. Pengelompokan ini berfungsi sebagai gambaran besar, di mana tiap kelompok saling beririsan dan melengkapi, bukan kotak pembatas yang kaku.</p>'
+      f'<a href="multivariat.html">Lihat di plot PCA →</a></div><div class="cluster-bars">{bars}</div></div>')
+```
+
+<div class="method-section">
+<p class="eyebrow dark">Jelajahi</p>
+<h2>Cara Seru Menjelajahi Data Konsumsi</h2>
+<div class="steps">
+<a class="step" href="multivariat.html"><small>1 · Multivariat</small><h3>Pola pangan</h3><p>Melihat daerah mana saja yang punya menu andalan mirip, tanpa peduli batas pulau atau provinsi.</p></a>
+<a class="step" href="peta.html"><small>2 · Geospasial</small><h3>Peta konsumsi</h3><p>Jalan-jalan virtual lewat peta interaktif untuk tahu di mana komoditas tertentu paling sering (atau paling jarang) dikonsumsi.</p></a>
+<a class="step" href="hierarki.html"><small>3 · Hierarki</small><h3>Wilayah</h3><p>Menelusuri kemiripan pola makan dari tingkat kabupaten, gabung ke provinsi, hingga satu Indonesia.</p></a>
+</div>
+</div>
+
+<section class="home-findings">
+<div class="section-heading">
+<div><p class="eyebrow dark">Temuan utama</p><h2>Pola makan tidak berhenti di batas provinsi.</h2></div>
+<p>Selera makan warga ternyata tidak patuh pada garis batas wilayah. Daerah tetangga bisa saja punya menu harian yang jauh berbeda.</p>
+</div>
+<div class="finding-grid">
+<article><span>01</span><h3>Jawa Berkelompok Kuat</h3><p>Sebagian besar wilayah di Jawa punya selera makan yang sangat kompak dan mirip satu sama lain.</p></article>
+<article><span>02</span><h3>Papua Punya Cerita Sendiri</h3><p>Karakteristik konsumsi di tanah Papua punya keunikan tersendiri yang membuatnya berada di kelompok terpisah.</p></article>
+<article><span>03</span><h3>Pembeda Utama: Lauk & Karbohidrat Tambahan</h3><p>ernyata, telur, ayam, mi, dan gorengan adalah faktor paling kuat yang membedakan selera makan antar-daerah.</p></article>
+</div>
+</section>
+
+<p class="footer-note">Sumber: BPS, 2024. Rincian tabel dan pengolahan ada di <a href="metode.html">Metode &amp; sumber</a>.</p>

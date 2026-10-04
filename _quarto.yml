@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - multivariat.qmd
+    - peta.qmd
+    - hierarki.qmd
+    - metode.qmd
+website:
+  title: "Piring Indonesia"
+  page-footer: "Sumber data: BPS (Susenas Maret 2024). UAS Visualisasi Data dan Informasi, Politeknik Statistika STIS."
+  search: false
+  navbar:
+    pinned: true
+    collapse-below: lg
+    left:
+      - {href: index.qmd, text: "Cerita"}
+      - {href: multivariat.qmd, text: "Pola pangan"}
+      - {href: peta.qmd, text: "Peta"}
+      - {href: hierarki.qmd, text: "Hierarki wilayah"}
+      - {href: metode.qmd, text: "Metode & sumber"}
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: article
+    grid: {body-width: 1120px, margin-width: 0px, sidebar-width: 0px}
+    fig-responsive: true
+execute:
+  echo: false
+  warning: false
+jupyter: python3

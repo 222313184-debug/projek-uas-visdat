@@ -1,0 +1,37 @@
+---
+title: "Pola pangan: 12 komoditas, 514 kab/kota"
+subtitle: "Mengelompokkan kab/kota menurut kemiripan pola konsumsinya"
+---
+
+<p class="page-lead">Setiap titik di grafik mewakili satu kabupaten/kota. Melalui ringkasan 12 jenis bahan pangan, daerah-daerah dengan kebiasaan makan yang serupa dikumpulkan ke dalam kelompok yang sama. Grafik ini membandingkan kecenderungan selera—apakah suatu wilayah mengonsumsi di atas atau di bawah rata-rata nasional—bukan menghitung jumlah porsi aslinya.</p>
+
+::: {.viz-card .viz-card--altair}
+<div class="viz-heading"><div><span>Eksplorasi utama</span><h2>Ruang pola konsumsi</h2></div><p>Seret pada plot PCA untuk menyorot wilayah.</p></div>
+
+```{python}
+import sys; sys.path.insert(0, "src")
+import viz
+df = viz.muat()
+viz.tampil(viz.multivariat(df), tinggi=700)
+```
+:::
+
+::: {.reading-note}
+<span>Cara membaca</span>
+<p>Titik-titik yang saling berdekatan di grafik atas memiliki kebiasaan makan yang mirip, dengan warna yang menandakan kelompoknya. Panduan membaca garis dan warna:</p><p><b>-Nilai Rata-rata (0):</b> Menandakan tingkat konsumsi yang persis sama dengan rata-rata nasional dari 514 kabupaten/kota.</p><p><b>-Di Atas atau di Bawah Rata-rata:</b> Angka positif (+1) berarti konsumsinya di atas rata-rata, sedangkan angka negatif (-1) berarti di bawah rata-rata.</p><p><b>-Garis & Warna:</b> Garis warna-warni pada grafik di atas menunjukkan profil wilayah yang sedang Anda pilih, sementara kotak warna (heatmap) merangkum rata-rata kebiasaan tiap kelompok.</p>
+:::
+
+::: {.table-card}
+<div class="viz-heading"><div><span>Tabel pendukung</span><h2>Muatan komponen</h2></div><p>Makin jauh dari nol, makin kuat komoditas itu membentuk sumbu. Tanda + dan − berarti arah berlawanan.</p></div>
+
+```{python}
+viz.loadings(df).sort_values("PC1")
+```
+:::
+
+::: {.insight-note}
+<strong>Cara menafsirkan hasil</strong>
+<p><b>Sumbu.</b> PC1 (29% variasi): telur ayam ras, daging ayam ras, mi, dan gorengan tinggi di sisi kanan; pisang dan kangkung tinggi di sisi kiri. PC2 (15%): bayam dan susu kental manis tinggi di atas; beras dan ikan tongkol tinggi di bawah. Keduanya baru merangkum 44% variasi.</p><p><b>Klaster.</b> Klaster 1 (130 kab/kota; Sulawesi, Bali–Nusa Tenggara, Sumatera, Maluku): beras dan ikan tongkol tinggi, telur, ayam ras, dan mi rendah. Klaster 2 (44; hampir semuanya Papua): beras dan telur rendah, bayam dan kangkung tinggi. Klaster 3 (168; Sumatera, Kalimantan, Sulawesi): rokok kretek filter, tepung terigu, dan susu kental manis di atas rata-rata. Klaster 4 (172; terutama Jawa, juga Sumatera): telur, ayam ras, mi, dan gorengan tinggi, beras di bawah rata-rata.</p><p><b>Catatan.</b> Klaster saling tumpang tindih (terutama 3 dan 4), skor siluet keseluruhan hanya 0,15 (0,04–0,19 per klaster), dan jumlah klaster 4 adalah pilihan penulis; skor tertinggi justru pada 2 klaster (0,25). Klaster 2 sangat terkonsentrasi di Papua, tetapi anggotanya paling beragam. Anggap klaster sebagai ringkasan deskriptif, bukan kelompok alami. Ada 18 kab/kota dengan nilai ekstrem (|z| &gt; 4), terbanyak pada bayam dan pisang (masing-masing 6).</p>
+:::
+
+*Sumber: BPS, 2024. Klaster: k-means dengan 4 klaster pada z-score 12 komoditas.*

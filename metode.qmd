@@ -1,0 +1,53 @@
+---
+title: "Metode dan sumber data"
+subtitle: "Bagaimana data disiapkan, dibandingkan, dan divisualisasikan"
+---
+
+<p class="page-lead">Halaman ini menjelaskan data yang dipakai, cara menyiapkannya, dan batas penafsirannya, agar setiap angka di situs ini bisa ditelusuri.</p>
+
+<div class="method-grid">
+<section class="method-card method-card--wide">
+<span class="method-number">01</span>
+<div><p class="eyebrow dark">Sumber utama</p><h2>Data konsumsi rumah tangga</h2>
+<p>Delapan tabel BPS <em>Rata-rata Konsumsi Perkapita Seminggu Menurut Kelompok … Per Kabupaten/Kota</em> tahun 2024, mencakup 514 kabupaten/kota dan 142 komoditas. Nilainya rata-rata konsumsi per orang dalam seminggu, dihitung dari seluruh penduduk termasuk yang tidak mengonsumsinya. Judul, URL, dan tanggal akses tercatat di <code>data/SUMBER_DATA.csv</code>.</p></div>
+</section>
+
+<section class="method-card">
+<span class="method-number">02</span>
+<div><p class="eyebrow dark">Data pendukung</p><h3>Penduduk dan batas wilayah</h3>
+<p>Jumlah penduduk 2024 (BPS) menjadi ukuran blok pada hierarki. Batas kab/kota memakai shapefile administrasi periode 2019 yang disederhanakan agar peta ringan; jumlahnya (514) sama dengan data konsumsi 2024.</p></div>
+</section>
+
+<section class="method-card">
+<span class="method-number">03</span>
+<div><p class="eyebrow dark">Penyelarasan</p><h3>514 wilayah cocok</h3>
+<p>Dari 517 objek di shapefile, tiga badan air (waduk dan danau) dikeluarkan sehingga tersisa 514 kab/kota. Nama antarsumber diselaraskan: enam nama pada tabel penduduk dan tiga pada shapefile dikoreksi manual. Total penduduk hasil penggabungan sama dengan total nasional pada tabelnya (281.603.799).</p></div>
+</section>
+</div>
+
+## Alur pra-pemrosesan
+
+<div class="process-list">
+<div><span>1</span><h3>Bersihkan</h3><p>Sel bertanda “-” di tabel BPS dianggap 0 (asumsi: tidak ada konsumsi tercatat) dan diberi penanda. Jumlahnya 8,7% dari seluruh sel, tetapi paling banyak 2,7% pada 12 komoditas terpilih.</p></div>
+<div><span>2</span><h3>Gabungkan</h3><p>Tabel konsumsi tidak memuat provinsi, jadi tiap kab/kota dipasangkan dengan provinsi dan pulaunya menurut urutan baris, lalu diperiksa dengan kab/kota pertama tiap provinsi.</p></div>
+<div><span>3</span><h3>Pilih</h3><p>Dari 142 komoditas dipilih 12 dari 8 kelompok (padi-padian, telur dan susu, daging, ikan, sayur, buah, rokok, makanan dan minuman jadi) agar ragam pangan terwakili dan sel kosongnya sedikit. Pemilihan ini subjektif, dan rokok memang bukan pangan tetapi ikut sebagai bagian pola konsumsi rumah tangga.</p></div>
+<div><span>4</span><h3>Standarkan</h3><p>Satuan antarkomoditas berbeda-beda, jadi nilainya tidak dijumlahkan. Tiap komoditas diubah menjadi z-score (selisih dari rata-rata dibagi simpangan baku) sebelum PCA dan k-means.</p></div>
+</div>
+
+::: {.method-callout}
+### Batas interpretasi
+
+Batas wilayah berasal dari 2019, sedangkan konsumsi dari 2024. Pulau kecil sulit terlihat di peta setelah geometri disederhanakan, sehingga peta simbol proporsional disediakan. Hanya 12 dari 142 komoditas yang dianalisis. Jumlah klaster (4) adalah pilihan penulis dan strukturnya lemah (skor siluet 0,15, sedangkan 2 klaster menghasilkan 0,25); PCA dua dimensi hanya merangkum 44% variasi. Data hanya satu tahun dan berupa estimasi survei, sehingga angka tiap kab/kota punya galat sampling. Data ini menunjukkan apa yang dikonsumsi, bukan penyebabnya, dan tidak cukup untuk menilai kecukupan gizi.
+:::
+
+## Reproduksibilitas
+
+| Tahap | Berkas |
+|---|---|
+| Parsing tabel konsumsi | `scripts/01_parse_konsumsi.py` |
+| Penyiapan geometri | `scripts/02_prepare_geo.py` |
+| Penyiapan penduduk | `scripts/03_prepare_penduduk.py` |
+| Konfigurasi variabel | `config.yaml` |
+| Fungsi visualisasi | `src/viz.py` |
+
+*Alat bantu AI: ISI (tulis alat yang dipakai dan bagian pekerjaan yang dibantu). Seluruh data, analisis, dan interpretasi telah diverifikasi penulis.*

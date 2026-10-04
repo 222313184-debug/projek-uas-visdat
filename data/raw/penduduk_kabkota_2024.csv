@@ -1,0 +1,515 @@
+kabkota,penduduk,pct_0_14,pct_65plus
+Simeulue,98633,26.49,5.16
+Aceh Singkil,135684,30.77,3.72
+Aceh Selatan,241994,23.84,6.78
+Aceh Tenggara,234430,27.67,5.13
+Aceh Timur,443638,28.73,4.83
+Aceh Tengah,226744,27.4,5.55
+Aceh Barat,206822,24.65,6.26
+Aceh Besar,428254,26.55,5.96
+Pidie,452547,24.64,7.33
+Bireuen,459073,26.72,6.47
+Aceh Utara,631984,26.74,6.04
+Aceh Barat Daya,159187,24.76,5.73
+Gayo Lues,106791,28.77,4.24
+Aceh Tamiang,309039,26.15,5.56
+Nagan Raya,176429,24.79,6.56
+Aceh Jaya,99200,27.89,5.53
+Bener Meriah,172036,27.86,5.13
+Pidie Jaya,166467,25.6,7.15
+Kota Banda Aceh,265019,26.97,4.97
+Kota Sabang,43470,26.85,6.27
+Kota Langsa,197909,24.39,5.81
+Kota Lhokseumawe,200403,26.24,5.12
+Kota Subulussalam,99062,31.94,3.12
+Nias,155629,29.83,5.14
+Mandailing Natal,505360,30.12,5.38
+Tapanuli Selatan,316486,28.87,5.69
+Tapanuli Tengah,394910,27.0,5.45
+Tapanuli Utara,326993,28.38,7.89
+Toba Samosir,216720,28.42,7.83
+Labuhan Batu,520545,27.53,4.84
+Asahan,813720,27.18,5.83
+Simalungun,1051845,24.32,7.73
+Dairi,330586,28.39,6.73
+Karo,426471,25.06,7.11
+Deli Serdang,2048480,26.32,5.54
+Langkat,1078676,25.81,6.29
+Nias Selatan,389957,27.71,4.01
+Humbang Hasundutan,207076,29.55,7.63
+Pakpak Bharat,56212,32.85,4.66
+Samosir,143071,28.7,8.2
+Serdang Bedagai,691638,26.75,6.31
+Batu Bara,437360,28.6,5.84
+Padang Lawas Utara,280595,30.85,4.1
+Padang Lawas,280764,31.27,3.96
+Labuhan Batu Selatan,336577,29.66,3.48
+Labuhan Batu Utara,408749,28.69,4.7
+Nias Utara,158676,29.04,4.9
+Nias Barat,97251,31.56,4.7
+Kota Sibolga,91747,26.77,5.55
+Kota Tanjung Balai,185647,27.95,5.14
+Kota Pematang Siantar,277054,23.81,8.35
+Kota Tebing Tinggi,180977,25.87,6.89
+Kota Medan,2486283,23.05,7.22
+Kota Binjai,307170,25.68,6.36
+Kota Padangsidimpuan,240067,26.48,5.66
+Kota Gunungsitoli,145233,30.7,4.82
+Kepulauan Mentawai,92757,26.59,4.57
+Pesisir Selatan,532913,24.93,7.75
+Solok,410426,24.47,7.54
+Sijunjung,246775,25.4,6.61
+Tanah Datar,388228,21.7,10.41
+Padang Pariaman,459169,24.58,8.59
+Agam,559299,22.77,10.01
+Lima Puluh Kota,401086,22.96,9.2
+Pasaman,318080,25.76,6.43
+Solok Selatan,195034,25.55,5.92
+Dharmasraya,244026,25.71,5.52
+Pasaman Barat,456467,27.0,4.96
+Kota Padang,954177,24.26,7.15
+Kota Solok,79459,26.71,5.58
+Kota Sawah Lunto,68725,24.52,7.87
+Kota Padang Panjang,59453,26.21,6.48
+Kota Bukittinggi,125015,25.17,7.0
+Kota Payakumbuh,146731,25.04,7.37
+Kota Pariaman,98336,25.08,7.36
+Kuantan Singingi,349251,25.4,6.16
+Indragiri Hulu,468366,26.68,4.49
+Indragiri Hilir,684860,25.01,5.5
+Pelalawan,414943,28.9,3.16
+Siak,483754,27.1,3.51
+Kampar,894848,27.16,4.26
+Rokan Hulu,593486,26.17,4.31
+Bengkalis,591800,27.32,5.41
+Rokan Hilir,673323,27.04,4.52
+Kepulauan Meranti,213720,24.62,6.81
+Kota Pekanbaru,1026671,26.17,5.03
+Kota Dumai,333031,27.63,4.71
+Kerinci,256706,23.28,8.41
+Merangin,373409,25.57,5.17
+Sarolangun,306514,28.46,4.73
+Batang Hari,316550,25.63,5.29
+Muaro Jambi,424579,25.12,4.81
+Tanjung Jabung Timur,238975,25.09,6.94
+Tanjung Jabung Barat,335069,26.03,5.37
+Tebo,355262,26.73,5.26
+Bungo,381272,25.72,5.34
+Kota Jambi,635101,23.52,6.16
+Kota Sungai Penuh,100847,23.45,8.05
+Ogan Komering Ulu,383039,26.72,6.18
+Ogan Komering Ilir,807085,25.03,5.72
+Muara Enim,640962,26.58,6.15
+Lahat,450281,25.3,7.0
+Musi Rawas,411787,25.54,6.49
+Musi Banyuasin,651950,27.78,5.44
+Banyu Asin,885902,25.33,6.2
+Ogan Komering Ulu Selatan,429535,23.73,6.29
+Ogan Komering Ulu Timur,674184,24.63,7.23
+Ogan Ilir,436141,26.31,6.38
+Empat Lawang,345641,21.66,6.78
+Penukal Abab Lematang Ilir,205384,28.65,5.03
+Musi Rawas Utara,198413,26.63,5.46
+Kota Palembang,1718440,25.69,7.17
+Kota Prabumulih,203312,27.85,5.24
+Kota Pagar Alam,149199,25.42,7.1
+Kota Lubuklinggau,246046,26.94,5.6
+Bengkulu Selatan,173315,24.65,6.88
+Rejang Lebong,288832,23.43,6.38
+Bengkulu Utara,310125,25.94,6.55
+Kaur,132659,24.87,6.27
+Seluma,217507,24.7,6.26
+Mukomuko,201700,27.39,5.15
+Lebong,111750,24.9,6.9
+Kepahiang,156353,23.39,5.96
+Bengkulu Tengah,122673,25.79,5.62
+Kota Bengkulu,397321,25.67,5.1
+Lampung Barat,315923,26.02,6.03
+Tanggamus,670367,25.1,7.06
+Lampung Selatan,1119314,25.94,6.28
+Lampung Timur,1153773,23.65,7.92
+Lampung Tengah,1525088,23.4,7.26
+Lampung Utara,659887,26.01,7.06
+Way Kanan,497260,26.6,6.5
+Tulangbawang,450336,25.88,5.72
+Pesawaran,500298,25.64,7.15
+Pringsewu,424679,24.63,7.36
+Mesuji,241600,26.11,5.8
+Tulang Bawang Barat,298696,25.18,7.18
+Pesisir Barat,172316,28.18,6.12
+Kota Bandar Lampung,1214333,23.5,7.12
+Kota Metro,175712,24.16,7.24
+Bangka,342058,24.06,6.48
+Belitung,191405,22.3,7.29
+Bangka Barat,215818,24.7,5.62
+Bangka Tengah,210482,25.22,4.9
+Bangka Selatan,208491,23.41,4.7
+Belitung Timur,132835,22.13,7.16
+Kota Pangkal Pinang,230441,24.82,6.6
+Karimun,263344,25.41,6.8
+Bintan,168190,25.45,5.23
+Natuna,85664,27.06,5.69
+Lingga,102006,24.08,8.12
+Kepulauan Anambas,49728,26.74,5.64
+Kota Batam,1276928,26.54,2.95
+Kota Tanjung Pinang,237432,24.4,6.45
+Kepulauan Seribu,28809,26.63,4.56
+Kota Jakarta Selatan,2230653,20.8,7.06
+Kota Jakarta Timur,3086010,22.22,6.57
+Kota Jakarta Pusat,1044297,19.75,8.19
+Kota Jakarta Barat,2479571,21.96,6.71
+Kota Jakarta Utara,1815606,22.85,6.46
+Bogor,5682303,24.14,5.1
+Sukabumi,2828024,23.49,7.23
+Cianjur,2584994,24.72,6.86
+Bandung,3753116,24.41,6.02
+Garut,2716950,25.94,6.02
+Tasikmalaya,1920921,22.5,8.93
+Ciamis,1259226,20.69,11.58
+Kuningan,1213927,22.81,8.91
+Cirebon,2387961,23.75,6.21
+Majalengka,1352541,21.67,8.91
+Sumedang,1187133,21.5,10.07
+Indramayu,1914037,22.16,7.05
+Subang,1663156,21.36,9.03
+Purwakarta,1050344,24.53,6.31
+Karawang,2554384,23.28,6.18
+Bekasi,3273868,24.14,4.29
+Bandung Barat,1884191,23.92,6.76
+Pangandaran,434104,20.63,11.08
+Kota Bogor,1078351,22.73,6.91
+Kota Sukabumi,365735,23.98,7.21
+Kota Bandung,2528163,21.25,7.97
+Kota Cirebon,344851,22.87,7.49
+Kota Bekasi,2644058,22.22,6.16
+Kota Depok,2163635,23.08,5.91
+Kota Cimahi,598698,21.86,6.7
+Kota Tasikmalaya,750727,23.74,7.46
+Kota Banjar,209791,22.27,9.26
+Cilacap,2027379,21.77,9.21
+Banyumas,1847097,21.73,9.66
+Purbalingga,1037637,22.68,9.08
+Banjarnegara,1057562,22.23,9.45
+Kebumen,1414754,22.0,9.69
+Purworejo,795033,20.31,11.56
+Wonosobo,920506,22.43,8.69
+Magelang,1341447,21.17,9.82
+Boyolali,1099850,21.85,10.13
+Klaten,1292800,20.06,10.82
+Sukoharjo,941650,20.69,9.45
+Wonogiri,1054145,17.75,14.58
+Karanganyar,961909,21.23,10.25
+Sragen,1004761,20.68,10.89
+Grobogan,1506374,22.27,8.93
+Blora,907993,19.29,10.47
+Rembang,665237,20.92,9.39
+Pati,1370821,20.47,9.69
+Kudus,883322,22.48,7.15
+Jepara,1232880,22.55,7.65
+Demak,1252970,23.48,7.14
+Semarang,1089767,21.49,8.89
+Temanggung,814879,21.2,9.95
+Kendal,1064812,21.66,8.05
+Batang,838187,23.12,7.72
+Pekalongan,1019006,23.69,7.54
+Pemalang,1541685,22.97,7.67
+Tegal,1674803,23.89,6.87
+Brebes,2065501,23.05,7.39
+Kota Magelang,122431,18.47,10.95
+Kota Surakarta,528044,19.73,10.05
+Kota Salatiga,201270,20.99,9.16
+Kota Semarang,1708833,20.88,8.03
+Kota Pekalongan,321095,23.11,6.93
+Kota Tegal,285843,22.82,7.43
+Kulon Progo,445315,19.73,13.41
+Bantul,1017750,20.36,10.74
+Gunung Kidul,752188,18.55,15.33
+Sleman,1168471,20.16,10.35
+Kota Yogyakarta,375779,18.51,11.04
+Pacitan,588569,17.77,14.21
+Ponorogo,962941,18.58,13.41
+Trenggalek,744516,19.12,12.23
+Tulungagung,1113847,19.54,10.81
+Blitar,1263645,20.23,10.78
+Kediri,1689916,21.06,9.66
+Malang,2735993,20.95,9.54
+Lumajang,1145849,20.24,10.77
+Jember,2603817,20.44,9.9
+Banyuwangi,1754393,20.56,10.51
+Bondowoso,792309,20.21,11.46
+Situbondo,700719,19.23,11.41
+Probolinggo,1185242,21.95,9.29
+Pasuruan,1657216,21.72,7.98
+Sidoarjo,2171480,21.17,7.03
+Mojokerto,1154257,21.91,8.34
+Jombang,1362697,21.85,8.7
+Nganjuk,1131777,20.7,10.21
+Madiun,757839,19.07,12.71
+Magetan,685500,19.53,13.89
+Ngawi,884086,19.25,12.7
+Bojonegoro,1325299,19.67,10.45
+Tuban,1225205,19.76,10.19
+Lamongan,1378147,19.77,10.74
+Gresik,1364019,21.83,7.44
+Bangkalan,1102522,22.01,7.65
+Sampang,1016254,24.22,7.11
+Pamekasan,884697,22.97,7.92
+Sumenep,1153188,19.39,11.32
+Kota Kediri,298227,21.5,8.73
+Kota Blitar,154867,21.26,9.16
+Kota Malang,872694,21.2,9.04
+Kota Probolinggo,249539,23.26,7.72
+Kota Pasuruan,219392,24.03,7.03
+Kota Mojokerto,137393,22.06,8.48
+Kota Madiun,201767,19.31,11.16
+Kota Surabaya,2921996,21.22,8.31
+Kota Batu,222685,21.7,8.62
+Pandeglang,1325952,25.25,5.91
+Lebak,1449205,25.57,5.71
+Tangerang,3400486,24.62,4.33
+Serang,1701803,25.07,5.3
+Kota Tangerang,1963966,23.73,5.65
+Kota Cilegon,455617,26.48,4.86
+Kota Serang,734866,26.33,4.23
+Kota Tangerang Selatan,1399496,22.18,6.41
+Jembrana,325633,21.62,9.39
+Tabanan,467667,17.71,12.95
+Badung,568547,19.68,8.48
+Gianyar,527119,19.29,10.57
+Klungkung,209309,21.04,10.97
+Bangli,262297,20.6,10.7
+Karangasem,502333,23.2,9.74
+Buleleng,814789,22.48,9.04
+Kota Denpasar,755568,20.42,7.12
+Lombok Barat,765049,27.14,5.32
+Lombok Tengah,1109800,26.06,5.86
+Lombok Timur,1414461,28.48,5.3
+Sumbawa,536597,25.01,6.93
+Dompu,250943,27.46,6.0
+Bima,543459,25.75,6.92
+Sumbawa Barat,155535,29.17,5.17
+Lombok Utara,261557,28.03,5.08
+Kota Mataram,445010,26.51,5.99
+Kota Bima,163604,27.65,6.07
+Sumba Barat,155013,31.96,5.22
+Sumba Timur,259261,31.84,6.08
+Kupang,380212,25.39,6.65
+Timor Tengah Selatan,481281,27.7,7.66
+Timor Tengah Utara,275439,29.18,7.16
+Belu,235709,28.32,6.04
+Alor,225020,31.09,6.2
+Lembata,143345,31.17,8.4
+Flores Timur,292523,27.19,8.24
+Sikka,340327,28.7,7.93
+Ende,281371,24.71,7.48
+Ngada,174088,26.63,7.7
+Manggarai,334464,30.43,5.13
+Rote Ndao,152950,31.92,6.97
+Manggarai Barat,276284,31.52,4.61
+Sumba Tengah,92354,33.58,5.45
+Sumba Barat Daya,328771,36.76,3.65
+Nagekeo,168355,26.63,7.78
+Manggarai Timur,296174,29.82,4.85
+Sabu Raijua,94787,33.5,6.74
+Malaka,193510,26.95,8.03
+Kota Kupang,474801,26.26,4.31
+Sambas,654912,25.78,6.73
+Bengkayang,303422,25.66,5.46
+Landak,419092,25.89,5.42
+Mempawah,316728,24.63,6.75
+Sanggau,510412,24.28,5.79
+Ketapang,599890,23.98,5.01
+Sintang,443684,25.9,5.51
+Kapuas Hulu,265772,25.03,5.53
+Sekadau,222510,25.03,5.76
+Melawi,243250,23.72,5.37
+Kayong Utara,135087,25.23,5.43
+Kubu Raya,649866,25.77,5.39
+Kota Pontianak,680852,24.21,6.74
+Kota Singkawang,249998,26.81,6.39
+Kotawaringin Barat,282790,25.36,5.18
+Kotawaringin Timur,448184,23.93,4.96
+Kapuas,430184,23.06,6.07
+Barito Selatan,135909,23.29,6.36
+Barito Utara,162622,23.67,5.36
+Sukamara,67806,24.64,4.09
+Lamandau,103676,24.47,4.89
+Seruyan,174314,25.14,3.81
+Katingan,171856,26.47,4.86
+Pulang Pisau,139508,24.73,7.13
+Gunung Mas,145534,26.09,4.52
+Barito Timur,118759,22.8,6.14
+Murung Raya,118443,26.67,4.12
+Kota Palangka Raya,310113,24.72,5.55
+Tanah Laut,364982,26.12,5.83
+Kota Baru,343684,26.88,4.68
+Banjar,600639,25.74,5.72
+Barito Kuala,330990,25.6,5.85
+Tapin,198870,26.04,6.0
+Hulu Sungai Selatan,238778,25.02,6.81
+Hulu Sungai Tengah,268754,24.69,7.11
+Hulu Sungai Utara,237111,26.34,6.38
+Tabalong,266885,26.83,5.31
+Tanah Bumbu,342363,29.74,4.65
+Balangan,138116,27.32,4.99
+Kota Banjarmasin,668762,24.94,6.88
+Kota Banjar Baru,273466,26.65,4.98
+Paser,286991,24.65,5.26
+Kutai Barat,178743,23.17,5.65
+Kutai Kartanegara,789767,24.61,5.33
+Kutai Timur,462993,23.84,3.68
+Berau,261833,25.12,4.26
+Penajam Paser Utara,267686,21.64,4.56
+Mahakam Ulu,34246,23.21,6.6
+Kota Balikpapan,717231,23.87,6.34
+Kota Samarinda,858079,23.05,5.92
+Kota Bontang,188289,25.41,4.36
+Malinau,86523,24.71,4.86
+Bulungan,160241,23.81,5.47
+Tana Tidung,28161,27.74,3.91
+Nunukan,210937,23.75,4.87
+Kota Tarakan,253916,24.93,4.97
+Bolaang Mongondow,257266,23.41,7.71
+Minahasa,353539,20.53,11.84
+Kepulauan Sangihe,142846,20.34,9.84
+Kepulauan Talaud,98297,22.04,9.1
+Minahasa Selatan,241261,21.57,11.07
+Minahasa Utara,233471,22.42,8.79
+Bolaang Mongondow Utara,87197,25.22,6.85
+Siau Tagulandang Biaro,73922,20.1,10.57
+Minahasa Tenggara,120438,24.31,8.57
+Bolaang Mongondow Selatan,72900,26.57,5.6
+Bolaang Mongondow Timur,92219,22.92,7.1
+Kota Manado,460427,22.35,8.72
+Kota Bitung,234966,23.69,6.44
+Kota Tomohon,103954,22.05,10.28
+Kota Kotamobagu,129074,23.29,6.99
+Banggai Kepulauan,124576,26.25,6.19
+Banggai,377603,24.6,6.67
+Morowali,173313,26.93,4.3
+Poso,254060,23.93,7.51
+Donggala,310998,25.96,5.87
+Toli-Toli,233898,27.43,5.87
+Buol,152355,29.3,4.77
+Parigi Moutong,459781,24.16,5.85
+Tojo Una-Una,170815,27.62,5.65
+Sigi,269963,25.71,6.15
+Banggai Laut,74019,29.26,4.87
+Morowali Utara,127865,26.61,5.93
+Kota Palu,392507,26.51,5.15
+Kepulauan Selayar,142701,21.99,8.67
+Bulukumba,454719,22.1,7.86
+Bantaeng,205418,22.56,6.6
+Jeneponto,418969,23.52,6.78
+Takalar,317017,24.91,6.97
+Gowa,814041,23.86,6.66
+Sinjai,270434,23.31,7.45
+Maros,413594,25.17,6.28
+Pangkajene dan Kepulauan,359163,24.22,7.12
+Barru,189214,22.89,9.29
+Bone,830119,21.98,9.29
+Soppeng,239355,19.81,11.95
+Wajo,389052,21.61,9.22
+Sidenreng Rappang,330742,23.15,8.44
+Pinrang,424646,24.08,7.49
+Enrekang,238099,24.27,7.05
+Luwu,384280,24.66,6.62
+Tana Toraja,292422,22.45,8.22
+Luwu Utara,337655,23.97,6.32
+Luwu Timur,312731,26.17,5.61
+Toraja Utara,277791,26.69,7.8
+Kota Makassar,1464637,23.45,6.38
+Kota Parepare,160920,25.82,5.91
+Kota Palopo,195666,25.15,5.46
+Buton,122029,29.44,5.57
+Muna,227984,27.96,6.05
+Konawe,274071,26.38,5.56
+Kolaka,248763,27.22,5.33
+Konawe Selatan,329210,26.97,5.48
+Bombana,160654,28.16,4.78
+Wakatobi,118259,26.94,6.55
+Kolaka Utara,148496,26.39,4.41
+Buton Utara,69799,29.09,5.22
+Konawe Utara,73829,29.74,4.0
+Kolaka Timur,127549,24.87,5.55
+Konawe Kepulauan,39688,28.23,4.84
+Muna Barat,90956,28.41,6.18
+Buton Tengah,121289,29.8,5.95
+Buton Selatan,101194,30.17,5.32
+Kota Kendari,370764,26.63,4.42
+Kota Baubau,168538,28.11,5.31
+Boalemo,153274,24.44,5.74
+Gorontalo,409509,23.67,6.51
+Pohuwato,153770,24.97,5.25
+Bone Bolango,170649,24.43,6.91
+Gorontalo Utara,132784,24.85,5.64
+Kota Gorontalo,207808,23.51,6.78
+Majene,183869,29.75,5.54
+Polewali Mandar,501319,26.91,6.26
+Mamasa,172923,25.67,6.54
+Mamuju,297141,28.52,4.64
+Mamuju Utara,202860,27.58,3.58
+Mamuju Tengah,145120,28.65,4.13
+Maluku Tenggara Barat,130487,26.45,6.7
+Maluku Tenggara,126245,24.81,7.34
+Maluku Tengah,440848,22.95,7.05
+Buru,142304,26.68,4.53
+Kepulauan Aru,109159,28.43,4.8
+Seram Bagian Barat,226044,27.42,5.03
+Seram Bagian Timur,147139,27.61,4.38
+Maluku Barat Daya,87197,28.74,7.34
+Buru Selatan,80842,29.68,3.73
+Kota Ambon,362639,23.16,6.28
+Kota Tual,92744,24.4,5.51
+Halmahera Barat,137805,23.6,6.06
+Halmahera Tengah,61791,28.75,4.21
+Kepulauan Sula,109256,26.99,5.39
+Halmahera Selatan,264926,26.03,4.56
+Halmahera Utara,207739,27.59,5.38
+Halmahera Timur,98224,27.48,4.69
+Pulau Morotai,79660,31.08,5.04
+Pulau Taliabu,61368,29.14,4.42
+Kota Ternate,214414,26.4,4.63
+Kota Tidore Kepulauan,120439,24.29,5.54
+Fakfak,90171,29.04,3.98
+Kaimana,66655,26.75,3.09
+Teluk Wondama,45561,31.54,3.44
+Teluk Bintuni,91064,23.74,2.84
+Manokwari,204955,26.72,4.12
+Manokwari Selatan,38820,25.65,3.55
+Pegunungan Arfak,41470,19.58,2.6
+Raja Ampat,70061,30.7,3.44
+Sorong,123136,24.69,5.26
+Sorong Selatan,56292,28.14,3.56
+Maybrat,47542,23.86,4.66
+Tambrauw,31354,29.28,2.61
+Kota Sorong,298742,23.74,4.78
+Jayapura,173281,36.58,4.15
+Kepulauan Yapen,118590,34.55,4.87
+Biak Numfor,141103,33.02,6.17
+Sarmi,43092,35.85,4.26
+Keerom,64179,35.56,4.45
+Waropen,35814,39.53,3.98
+Supiori,24527,40.4,4.94
+Mamberamo Raya,39388,34.42,3.22
+Kota Jayapura,420577,28.42,4.42
+Merauke,239404,34.16,5.68
+Boven Digoel,69035,41.85,2.37
+Mappi,115102,42.08,3.22
+Asmat,118534,45.95,2.14
+Mimika,327777,32.22,2.73
+Dogiyai,125178,27.79,3.39
+Deiyai,106496,28.82,2.94
+Nabire,175358,34.07,4.0
+Paniai,236534,23.07,2.75
+Intan Jaya,143853,20.65,4.56
+Puncak,122592,21.29,2.73
+Puncak Jaya,235124,16.35,4.69
+Nduga,113344,21.45,1.38
+Jayawijaya,281090,25.14,5.25
+Lanny Jaya,208536,20.2,3.47
+Tolikara,246375,17.4,8.71
+Mamberamo Tengah,53631,29.7,1.31
+Yalimo,108340,26.12,2.88
+Yahukimo,372397,16.55,4.07
+Pegunungan Bintang,83333,31.02,1.42

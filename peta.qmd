@@ -1,0 +1,39 @@
+---
+title: "Peta konsumsi per kab/kota"
+subtitle: "Melihat sebaran konsumsi pangan di seluruh kabupaten/kota."
+---
+
+<p class="page-lead">Pilih komoditas pada menu di dalam grafik. Gulir untuk memperbesar, seret untuk menggeser, dan klik “Batas provinsi” pada legenda untuk menampilkan atau menyembunyikan garis batas provinsi.</p>
+
+::: {.viz-card .viz-card--plotly}
+<div class="viz-heading"><div><span>01 · Sebaran relatif</span><h2>Choropleth kuantil</h2></div><p>Warna lebih gelap = konsumsi lebih tinggi. Tiap kelas berisi sekitar seperlima kab/kota.</p></div>
+
+```{python}
+import sys; sys.path.insert(0, "src")
+import viz
+df = viz.muat()
+viz.peta_choropleth(df)
+```
+<p class="viz-source">Sumber: BPS, Maret 2024 · rata-rata konsumsi per kapita seminggu menurut kabupaten/kota (satuan komoditas).</p>
+:::
+
+::: {.reading-note}
+<span>Cara membaca dan pilihan kelas</span>
+<p>Nilai yang dipetakan adalah rata-rata konsumsi per kapita dalam seminggu (satuan komoditas BPS), dibagi ke seluruh penduduk termasuk yang tidak mengonsumsinya. Jadi ini rata-rata per orang, bukan total wilayah.</p><p>Kelas dibagi dengan kuantil karena enam dari dua belas komoditas bersebaran condong ke kanan (kebanyakan wilayah rendah, segelintir sangat tinggi), misalnya bayam, pisang, dan ikan tongkol. Pada beras dan telur ayam ras sebaran tidak condong ke kanan, sehingga kuantil di sana sekadar mengurutkan wilayah. Lima kelas dipilih agar warna tetap mudah dibedakan. Konsekuensinya, batas kelas berbeda untuk tiap komoditas: warna yang sama pada dua komoditas tidak berarti nilai yang sama, dan nilai ekstrem tidak menonjol.</p>
+:::
+
+::: {.viz-card .viz-card--plotly}
+<div class="viz-heading"><div><span>02 · Besar nilai</span><h2>Simbol proporsional</h2></div><p>Luas lingkaran (bukan diameter) sebanding dengan nilai. Lingkaran menutup kab/kota kepulauan yang kecil di peta pertama.</p></div>
+
+```{python}
+viz.peta_simbol(df)
+```
+<p class="viz-source">Sumber: BPS, 2024 · rata-rata konsumsi per kapita seminggu menurut kabupaten/kota. Luas lingkaran sebanding dengan nilai.</p>
+:::
+
+::: {.insight-note}
+<strong>Temuan Menarik</strong>
+<p>Pada <b>beras</b>, nilai terendah ada di Puncak (0,19) dan Nduga (0,41), keduanya di Papua; tertinggi di Manggarai Timur (2,65) dan Gayo Lues (2,41); median seluruh kab/kota 1,55. Median per pulau tertinggi di Bali–Nusa Tenggara (1,95) dan terendah di Papua (1,22). Pada <b>telur ayam ras</b>, terendah di Mamberamo Tengah (0,03) dan Yahukimo (0,10), tertinggi di Kota Bekasi (3,08) dan Kota Banjar Baru (3,05); median 1,92. Pada <b>bayam</b>, nilai tertinggi ada di Mamberamo Tengah (0,36) dan Lanny Jaya (0,34), jauh di atas median 0,06.</p><p>Nilai-nilai ini adalah rata-rata survei, jadi selisih kecil antarwilayah tidak perlu ditafsirkan sebagai perbedaan nyata.</p>
+:::
+
+*Sumber: BPS, 2024; batas wilayah administrasi kabupaten/kota periode 2019.*

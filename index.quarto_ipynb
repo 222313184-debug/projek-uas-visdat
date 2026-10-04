@@ -1,0 +1,106 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "8427bf31",
+   "metadata": {},
+   "source": [
+    "---\n",
+    "pagetitle: \"Piring Indonesia\"\n",
+    "---\n",
+    "\n",
+    "<div class=\"hero\">\n",
+    "<div class=\"hero-copy\">\n",
+    "<p class=\"eyebrow\">Susenas Maret 2024 · 514 kabupaten/kota</p>\n",
+    "<h1 class=\"hero-title\">Satu negeri,<br><em>beragam isi piring.</em></h1>\n",
+    "<p class=\"hero-intro\">Menelusuri pola konsumsi rumah tangga Indonesia—dari bahan pokok di meja makan sampai perbedaan yang membentuk tiap wilayah.</p>\n",
+    "<div class=\"hero-actions\"><a class=\"primary-button\" href=\"multivariat.html\">Lihat pola pangan →</a><span>12 komoditas · 4 klaster</span></div>\n",
+    "</div>\n",
+    "<div class=\"plate-visual\" aria-hidden=\"true\"><div class=\"plate\"><div class=\"plate-center\"><strong>514</strong><span>wilayah</span></div><span class=\"food-shape shape-rice\"></span><span class=\"food-shape shape-leaf\"></span><span class=\"food-shape shape-protein\"></span><span class=\"food-shape shape-spice\"></span></div></div>\n",
+    "</div>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "a7603f7c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<div class=\"stat-strip\"><div><span>Cakupan</span><strong>514</strong><small>kabupaten/kota</small></div><div><span>Wilayah</span><strong>38</strong><small>provinsi</small></div><div><span>Kedalaman data</span><strong>142</strong><small>komoditas dalam data</small></div><div><span>Fokus analisis</span><strong>12</strong><small>variabel dianalisis</small></div></div>\n",
+      "<div class=\"finding-card\"><div><p class=\"eyebrow\" style=\"color:var(--mustard)\">Gambaran besar</p><h3>514 wilayah, 4 kelompok pola konsumsi.</h3><p>K-means pada z-score 12 komoditas mengelompokkan kab/kota yang pola konsumsinya mirip, tanpa melihat batas provinsi.</p><a href=\"multivariat.html\">Jelajahi di plot PCA →</a></div><div class=\"cluster-bars\"><div><span>Klaster 1</span><i style=\"width:76%;background:#B96546\"></i><b>130</b></div><div><span>Klaster 2</span><i style=\"width:26%;background:#D5A33D\"></i><b>44</b></div><div><span>Klaster 3</span><i style=\"width:98%;background:#4F8374\"></i><b>168</b></div><div><span>Klaster 4</span><i style=\"width:100%;background:#526774\"></i><b>172</b></div></div></div>\n"
+     ]
+    }
+   ],
+   "source": [
+    "#| output: asis\n",
+    "import sys; sys.path.insert(0, \"src\")\n",
+    "import viz, pandas as pd\n",
+    "df = viz.muat(); k = pd.read_csv(\"docs/kamus_data.csv\")\n",
+    "st = [(\"Cakupan\", len(df), \"kabupaten/kota\"), (\"Wilayah\", df.provinsi.nunique(), \"provinsi\"),\n",
+    "      (\"Kedalaman data\", len(k), \"komoditas dalam data\"), (\"Fokus analisis\", int(k.dipakai_multivariat.sum()), \"variabel dianalisis\")]\n",
+    "print('<div class=\"stat-strip\">' + \"\".join(f\"<div><span>{a}</span><strong>{b}</strong><small>{c}</small></div>\" for a, b, c in st) + \"</div>\")\n",
+    "n = df.klaster.value_counts().sort_index(); mx = n.max()\n",
+    "bars = \"\".join(f'<div><span>{c}</span><i style=\"width:{v/mx*100:.0f}%;background:{viz.OKABE[i]}\"></i><b>{v}</b></div>' for i, (c, v) in enumerate(n.items()))\n",
+    "print(f'<div class=\"finding-card\"><div><p class=\"eyebrow\" style=\"color:var(--mustard)\">Gambaran besar</p><h3>{len(df)} wilayah, {len(n)} kelompok pola konsumsi.</h3>'\n",
+    "      f'<p>K-means pada z-score 12 komoditas mengelompokkan kab/kota yang pola konsumsinya mirip, tanpa melihat batas provinsi.</p>'\n",
+    "      f'<a href=\"multivariat.html\">Jelajahi di plot PCA →</a></div><div class=\"cluster-bars\">{bars}</div></div>')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c3f9759d",
+   "metadata": {},
+   "source": [
+    "<div class=\"method-section\">\n",
+    "<p class=\"eyebrow dark\">Tiga cara melihatnya</p>\n",
+    "<h2>Dari tabel data menjadi cerita.</h2>\n",
+    "<div class=\"steps\">\n",
+    "<a class=\"step\" href=\"multivariat.html\"><small>1 · Multivariat</small><h3>Pola pangan</h3><p>12 komoditas diringkas dengan PCA lalu dikelompokkan. Seret di plot untuk menyorot kab/kota di tampilan lain.</p></a>\n",
+    "<a class=\"step\" href=\"peta.html\"><small>2 · Geospasial</small><h3>Peta konsumsi</h3><p>Di mana setiap komoditas banyak atau sedikit dikonsumsi: choropleth dan simbol proporsional.</p></a>\n",
+    "<a class=\"step\" href=\"hierarki.html\"><small>3 · Hierarki</small><h3>Wilayah</h3><p>Pulau, provinsi, kab/kota: (Area blok = Populasi, Warna = Z-score). Klik untuk menyelam.</p></a>\n",
+    "</div>\n",
+    "</div>\n",
+    "\n",
+    "<section class=\"home-findings\">\n",
+    "<div class=\"section-heading\">\n",
+    "<div><p class=\"eyebrow dark\">Temuan utama</p><h2>Pola makan tidak berhenti di batas provinsi.</h2></div>\n",
+    "<p>Kesamaan dan perbedaan konsumsi muncul lintas pulau. Empat kelompok membantu membaca hubungan yang sulit terlihat dari tabel biasa.</p>\n",
+    "</div>\n",
+    "<div class=\"finding-grid\">\n",
+    "<article><span>01</span><h3>Jawa membentuk pola yang kuat</h3><p>107 dari 119 kabupaten/kota di Jawa berada pada satu klaster, dengan konsumsi telur, ayam ras, dan mi di atas rata-rata.</p></article>\n",
+    "<article><span>02</span><h3>Papua tampil berbeda</h3><p>40 dari 44 wilayah pada klaster terkecil berada di Papua. Beras dan telur cenderung lebih rendah, sementara bayam dan kangkung lebih tinggi.</p></article>\n",
+    "<article><span>03</span><h3>Variasi terbesar ada di komoditas tertentu</h3><p>PC1 terutama membedakan telur, ayam ras, mi, dan gorengan dari pisang serta kangkung. Dua komponen utama merangkum 44% variasi.</p></article>\n",
+    "</div>\n",
+    "</section>\n",
+    "\n",
+    "<p class=\"footer-note\">Sumber: BPS, Susenas Maret 2024. Rincian tabel dan pengolahan ada di <a href=\"metode.html\">Metode &amp; sumber</a>.</p>"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3",
+   "path": "C:\\Users\\Alfarizi nul hakim\\AppData\\Roaming\\Python\\share\\jupyter\\kernels\\python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
